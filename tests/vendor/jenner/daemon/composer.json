@@ -3,7 +3,7 @@
     "description": "daemon",
     "license": "MIT",
     "keywords": ["daemon"],
-    "version": "v1.0.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Jenner",

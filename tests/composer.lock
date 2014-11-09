@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "79071d913781429d360065904f707c53",
+    "packages": [
+        {
+            "name": "jenner/daemon",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/huyanping/Zebra-Daemon.git",
+                "reference": "793a269741feb0438ceec46c0aec5ed250deb1f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/huyanping/Zebra-Daemon/zipball/793a269741feb0438ceec46c0aec5ed250deb1f0",
+                "reference": "793a269741feb0438ceec46c0aec5ed250deb1f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Jenner\\Zebra\\Daemon": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jenner",
+                    "email": "hypxm@qq.com"
+                }
+            ],
+            "description": "daemon",
+            "keywords": [
+                "daemon"
+            ],
+            "time": "2014-11-09 12:46:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

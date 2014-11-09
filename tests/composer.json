@@ -1,0 +1,13 @@
+{
+    "authors": [
+        {
+            "name": "Jenner",
+            "email": "hypxm@qq.com",
+            "homepage" : "http://www.huyanping.cn"
+        }
+    ],
+    "require": {
+        "jenner/daemon": "1.0.0",
+        "php": ">=5.3.0"
+    }
+}

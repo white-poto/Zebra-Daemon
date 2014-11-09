@@ -1,0 +1,43 @@
+[
+    {
+        "name": "jenner/daemon",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/huyanping/Zebra-Daemon.git",
+            "reference": "793a269741feb0438ceec46c0aec5ed250deb1f0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/huyanping/Zebra-Daemon/zipball/793a269741feb0438ceec46c0aec5ed250deb1f0",
+            "reference": "793a269741feb0438ceec46c0aec5ed250deb1f0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-11-09 12:46:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Jenner\\Zebra\\Daemon": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jenner",
+                "email": "hypxm@qq.com"
+            }
+        ],
+        "description": "daemon",
+        "keywords": [
+            "daemon"
+        ]
+    }
+]
