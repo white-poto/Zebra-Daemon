@@ -13,6 +13,8 @@
  */
 namespace Jenner\Zebra\Daemon;
 
+use PHPSQL\Exception\Exception;
+
 class DaemonSingle {
 
     //PID文件路径
@@ -43,7 +45,14 @@ class DaemonSingle {
     public function single(){
         $this->check_pcntl();
         if(file_exists($this->pid_file)) {
-            throw new Exception('the process is already running...');
+            $pid = intval(file_get_contents($this->pid_file));
+            exec("ps aux  | awk '{print $2}' | grep -e \"^{$pid}$\"", $output, $status);
+            if($status == 0){
+                throw new Exception('exec command failed');
+            }
+            if(intval($output) == $pid) {
+                throw new Exception('the process is already running...');
+            }
         }
         $this->create_pid_file();
     }
